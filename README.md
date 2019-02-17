@@ -1,4 +1,4 @@
-# wisdom
+# Wisdom
 
 Auto-generate motivating images with questionable wisdom...
 
