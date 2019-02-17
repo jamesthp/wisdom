@@ -2,7 +2,7 @@ import os
 
 _LAUNCHDIR = os.path.abspath(os.path.dirname(__file__))
 
-SAVED_IMAGES_DIR = os.path.join(_LAUNCHDIR, 'saved_wisdom_images')
+SAVED_IMAGES_DIR = os.path.join(_LAUNCHDIR, '..', 'saved_wisdom_images')
 if not os.path.isdir(SAVED_IMAGES_DIR):
     os.makedirs(SAVED_IMAGES_DIR)
 
